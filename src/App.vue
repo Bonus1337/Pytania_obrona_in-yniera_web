@@ -153,7 +153,7 @@
         do poprzedniego stabilnego stanu bazy danych (rollback).
       </p>
     </div>
-    <div class="questio">
+    <div class="question">
       <h1>Wymień podstawowe grupy poleceń języka SQL i omów jedną z nich</h1>
     </div>
     <div class="answer">
