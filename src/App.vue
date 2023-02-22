@@ -124,9 +124,59 @@
       <li>STARTUP OPEN</li>
       <p>Jest w pełni dostępna dla uytkowników</p>
       <p>
-        faza uruchamiania instancji bazy danych. W tym trybie baza danych jest w
+        Faza uruchamiania instancji bazy danych. W tym trybie baza danych jest w
         pełni dostępna dla użytkowników, którzy mogą wykonywać operacje na
         danych.
+      </p>
+    </div>
+    <div class="question">
+      <h1>Omów rolę jaką odgrywają przestrzenie tabel bazy danych Oracle</h1>
+    </div>
+    <div class="answer">
+      <p>
+        przestrzenie tabel w bazie danych Oracle są niezbędne dla efektywnego
+        zarządzania pamięcią dyskową i umożliwiają uniknięcie problemów
+        związanych z brakiem miejsca na dysku.
+      </p>
+    </div>
+    <div class="question">
+      <h1>Omów pojęcie transakcji w realacyjncyh bazach danych</h1>
+    </div>
+    <div class="answer">
+      <p>
+        Transakcja w bazach danych to jednostka pracy, która wykonuje jedno lub
+        więcej poleceń SQL. Musi być wykonywana jako całość lub w ogóle nie być
+        wykonywana, zgodnie z zasadami ACID. Dzięki temu zapewniają integralność
+        danych i unikają problemów związanych z jednoczesnym dostępem do tych
+        samych danych przez różne aplikacje lub użytkowników. W przypadku awarii
+        lub błędu, baza danych cofa wszystkie zmiany dokonane przez transakcję
+        do poprzedniego stabilnego stanu bazy danych (rollback).
+      </p>
+    </div>
+    <div class="questio">
+      <h1>Wymień podstawowe grupy poleceń języka SQL i omów jedną z nich</h1>
+    </div>
+    <div class="answer">
+      <li>Polecenia DDL</li>
+      <p>
+        Słuą do tworzenia, modyfikowania i usuwania struktury bazy danych, takie
+        jak tabele, widoki, indeksy
+      </p>
+      <li>Polecenia DML</li>
+      <p>Słuą do dodawania, aktualizowania lub usuwania rekordów do tabeli</p>
+      <li>Polecenia DQL</li>
+      <p>Słuą do wyświetlania danych</p>
+      <li>Polecenia DCL</li>
+      <p>Słuą do zarządzania uprawnieniami dostępu do bazy danych</p>
+      <p>
+        Polecenia DDL, które służą do tworzenia, modyfikowania i usuwania
+        struktury bazy danych. Przykładowo, polecenie CREATE TABLE służy do
+        tworzenia nowej tabeli, a polecenie ALTER TABLE umożliwia modyfikację
+        istniejącej tabeli, na przykład dodanie nowych kolumn lub zmiana typu
+        danych. Usuwanie tabeli z bazy danych jest możliwe za pomocą polecenia
+        DROP TABLE. Polecenia DDL są bardzo ważne, ponieważ pozwalają na
+        definiowanie struktury bazy danych, która jest potrzebna do
+        przechowywania i zarządzania danymi.
       </p>
     </div>
   </div>
