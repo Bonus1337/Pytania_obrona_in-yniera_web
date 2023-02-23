@@ -619,6 +619,213 @@
         zasobów.
       </p>
     </div>
+    <div class="question" :class="{ 'dark-mode': darkMode }">
+      <h1>Wymień stany procesów systemach operacyjnych Microsoft.</h1>
+    </div>
+    <div class="answer" :class="{ 'dark-mode': darkMode }">
+      <li>Stan gotowości</li>
+      <p>Proces jest gotowy do wykonania i oczekuje na przydział procesora.</p>
+      <li>Stan wykonywania</li>
+      <p>Proces jest aktualnie wykonywany przez procesor.</p>
+      <li>Stan oczekiwania</li>
+      <p>
+        Proces oczekuje na zasoby lub na wykonanie pewnej operacji, np. oczekuje
+        na zdarzenie wejścia-wyjścia.
+      </p>
+      <li>Stan zawieszenia</li>
+      <p>
+        Proces jest zawieszony, czyli nie jest wykonywany ani nie oczekuje na
+        żadne zasoby.
+      </p>
+      <li>Stan zakończenia</li>
+      <p>Proces zakończył swoje działanie.</p>
+    </div>
+    <div class="question" :class="{ 'dark-mode': darkMode }">
+      <h1>Wymień stany procesów systemów unixowych.</h1>
+    </div>
+    <div class="answer" :class="{ 'dark-mode': darkMode }">
+      <li>Stan gotowości</li>
+      <p>Proces jest gotowy do wykonania i oczekuje na przydział procesora.</p>
+      <li>Stan wykonywania</li>
+      <p>Proces jest aktualnie wykonywany przez procesor.</p>
+      <li>Stan oczekiwania</li>
+      <p>
+        Proces oczekuje na zasoby lub na wykonanie pewnej operacji, np. oczekuje
+        na zdarzenie wejścia-wyjścia.
+      </p>
+      <li>Stan zatrzymania</li>
+      <p>Proces został zatrzymany i nie wykonuje żadnych operacji.</p>
+      <li>Stan uśpienia</li>
+      <p>
+        Proces został uśpiony i oczekuje na zdarzenie, które spowoduje jego
+        wybudzenie.
+      </p>
+      <li>Stan zombie</li>
+      <p>
+        Proces, który zakończył swoje działanie, ale jeszcze nie został usunięty
+        z systemu.
+      </p>
+    </div>
+    <div class="question" :class="{ 'dark-mode': darkMode }">
+      <h1>Omów główne typy barw ze względu na skojarzenia.</h1>
+    </div>
+    <div class="answer" :class="{ 'dark-mode': darkMode }">
+      <li>Barwy ciepłe</li>
+      <p>
+        Czerwień, pomarańcz, żółć. Zwykle kojarzone z energią, namiętnością,
+        pozytywnym nastawieniem, ale też niekiedy z agresją lub ryzykiem.
+      </p>
+      <li>Barwy zimne</li>
+      <p>
+        Niebieski, zielony, fiolet. Często kojarzone z spokojem, harmonią,
+        naturą, ale także z obojętnością lub depresją.
+      </p>
+      <li>Barwy jaskrawe</li>
+      <p>
+        Fiolet, różowy, jaskrawa żółć. Wywołują skojarzenia z radością, zabawą,
+        entuzjazmem, ale też mogą być uciążliwe dla oczu lub wywoływać uczucie
+        chaosu.
+      </p>
+      <li>Barwy pastelowe</li>
+      <p>
+        Jasny róż, błękit, miętowy. Kojarzone z delikatnością, subtelnością,
+        romantyzmem, ale też mogą być uważane za zbyt łagodne lub nudne.
+      </p>
+      <li>Barwy ziemi</li>
+      <p>
+        Brąz, khaki, beż. Często kojarzone z naturą, stabilnością,
+        naturalnością, ale też mogą wywoływać skojarzenia z przestarzałością lub
+        nudą.
+      </p>
+    </div>
+    <div class="question" :class="{ 'dark-mode': darkMode }">
+      <h1>Jak działa algorym bulge.</h1>
+    </div>
+    <div class="answer" :class="{ 'dark-mode': darkMode }">
+      <p>
+        Algorytm Bulge wyróżnia się tym, że pozwala na zmniejszenie liczby
+        operacji potrzebnych do wyznaczenia wartości własnych i wektorów
+        własnych w porównaniu z innymi algorytmami, szczególnie gdy macierz
+        wejściowa ma bardzo dużą liczbę wierszy i kolumn. Algorytm ten
+        wykorzystywany jest w wielu dziedzinach nauki i technologii, w tym w
+        przetwarzaniu sygnałów, analizie danych, fizyce i chemii.
+      </p>
+    </div>
+    <div class="question" :class="{ 'dark-mode': darkMode }">
+      <h1>Omów modelowanie w grafice 3D.</h1>
+    </div>
+    <div class="answer" :class="{ 'dark-mode': darkMode }">
+      <p>
+        Proces modelowania polega na tworzeniu kształtu obiektu poprzez
+        dodawanie, usuwanie i modyfikowanie geometrii. Dostępne są różne
+        narzędzia pozwalające na dokładne kształtowanie modelu, w tym narzędzia
+        do rysowania, wycinania, skalowania, obracania, czy dodawania tekstur.
+      </p>
+    </div>
+    <div class="question" :class="{ 'dark-mode': darkMode }">
+      <h1>Wymień pradygmaty programowania i omów szczegółowo jeden wybrany</h1>
+    </div>
+    <div class="answer" :class="{ 'dark-mode': darkMode }">
+      <li>Programowanie imperatywne</li>
+      <p>
+        Program składa się z sekwencji instrukcji, które są wykonywane po kolei.
+        Programista określa kroki, jakie powinien wykonać program, aby osiągnąć
+        pożądany wynik. Podstawową strukturą kontrolną w tym paradygmacie jest
+        instrukcja warunkowa (if) oraz pętla (for, while). Programowanie
+        imperatywne koncentruje się na tym, co program ma zrobić, a nie na tym,
+        jak to zrobić.
+      </p>
+      <li>Programowanie funkcyjne</li>
+      <p>
+        Program składa się z wywoływania funkcji, a nie z sekwencji instrukcji.
+        Funkcje nie zmieniają stanu programu i nie mają efektów ubocznych, tzn.
+        działają tylko na swoich argumentach i zwracają wartość. Programowanie
+        funkcyjne koncentruje się na deklaratywnym opisie problemów, a nie na
+        tym, jak te problemy mają zostać rozwiązane.
+      </p>
+      <li>Programowanie obiektowe</li>
+      <p>
+        Program składa się z obiektów, które mają swoje własności (atrybuty)
+        oraz metody (operacje, które można wykonać na obiekcie). Programowanie
+        obiektowe koncentruje się na modelowaniu świata rzeczywistego poprzez
+        obiekty i relacje między nimi.
+      </p>
+    </div>
+    <div class="question" :class="{ 'dark-mode': darkMode }">
+      <h1>Wzorzec programowania SOLID.</h1>
+    </div>
+    <div class="answer" :class="{ 'dark-mode': darkMode }">
+      <p>
+        Zastosowanie zasad SOLID w projektowaniu aplikacji pomaga w tworzeniu
+        elastycznego i łatwego w utrzymaniu kodu, co przekłada się na
+        oszczędność czasu i pieniędzy w dalszej fazie rozwoju aplikacji.
+      </p>
+      <li>Single Responsibility Principle</li>
+      <p>
+        Asada pojedynczej odpowiedzialności: każda klasa powinna mieć tylko
+        jedno, jasno zdefiniowane zadanie. Dzięki temu klasa jest łatwiejsza w
+        utrzymaniu i zmianach.
+      </p>
+      <li>Open-Closed Principle</li>
+      <p>
+        Zasada otwarte-zamknięte: klasy powinny być otwarte na rozszerzenie, ale
+        zamknięte na modyfikację. Zmiana zachowania klasy powinna odbywać się
+        poprzez dziedziczenie i polimorfizm, a nie przez modyfikowanie
+        istniejącego kodu.
+      </p>
+      <li>Liskov Substitution Principle</li>
+      <p>
+        Zasada podstawienia Liskov: obiekt klasy podrzędnej powinien być w
+        stanie zastąpić obiekt klasy nadrzędnej bez zmiany spodziewanego
+        zachowania programu. Innymi słowy, dziedziczenie powinno być używane
+        tylko wtedy, gdy klasy naprawdę mają wspólną cechę i działają w sposób
+        spójny.
+      </p>
+      <li>Interface Segregation Principle</li>
+      <p>
+        Zasada segregacji interfejsów: klienci nie powinni zależeć od
+        interfejsów, których nie potrzebują. Zamiast tego powinny być tworzone
+        bardziej specyficzne interfejsy, które zawierają tylko te metody, które
+        są potrzebne w danym kontekście.
+      </p>
+      <li>Dependency Inversion Principle</li>
+      <p>
+        Zasada odwrócenia zależności: zależności między modułami powinny być
+        oparte na abstrakcjach, a nie na konkretnych implementacjach. Innymi
+        słowy, moduł wyższego poziomu nie powinien zależeć od modułu niższego
+        poziomu, ale od abstrakcji, które zdefiniowały te moduły.
+      </p>
+    </div>
+    <div class="question" :class="{ 'dark-mode': darkMode }">
+      <h1>
+        Scharakteryzuj obiekt typu pierwszoklasowego, podaj jego własności.
+      </h1>
+    </div>
+    <div class="answer" :class="{ 'dark-mode': darkMode }">
+      <p>
+        Obiekt typu pierwszoklasowego to pojęcie z dziedziny programowania
+        obiektowego. Oznacza ono, że w danym języku programowania obiekty są
+        traktowane jak wartości pierwszorzędne, podobnie jak liczby czy ciągi
+        znaków. Oznacza to, że obiekty mogą być przekazywane jako argumenty
+        funkcji, zwracane jako wyniki funkcji, a także przechowywane w
+        zmiennych.
+      </p>
+      <li>Przypisywanie</li>
+      <p>Można przypisać wartość obiektu do zmiennej.</p>
+      <li>Przekazywanie jako argument</li>
+      <p>Można przekazać obiekt jako argument funkcji.</p>
+      <li>Zwracanie</li>
+      <p>Funkcja może zwrócić obiekt jako wynik.</p>
+      <li>Tworzenie dynamiczne</li>
+      <p>Można tworzyć obiekty dynamicznie w trakcie działania programu.</p>
+      <li>Klasa anonimowa</li>
+      <p>
+        Możliwe jest definiowanie obiektów bezpośrednio bez definiowania klasy.
+      </p>
+    </div>
+    <div class="question" :class="{ 'dark-mode': darkMode }">
+      <h1>Omów cechę oprogramowania : dopuszczalność.</h1>
+    </div>
   </div>
 </template>
 
