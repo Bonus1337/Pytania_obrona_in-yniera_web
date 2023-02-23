@@ -826,6 +826,191 @@
     <div class="question" :class="{ 'dark-mode': darkMode }">
       <h1>Omów cechę oprogramowania : dopuszczalność.</h1>
     </div>
+    <div class="answer" :class="{ 'dark-mode': darkMode }">
+      <p>
+        Dopuszczalność to jedna z cech oprogramowania, która oznacza, że program
+        spełnia wymagania określone w danym kontekście, np. zgodność z
+        regulacjami prawno-technicznymi, standardami, politykami organizacji
+        itp. Oprogramowanie dopuszczalne musi być zgodne z wszelkimi wymaganiami
+        formalnymi, które określają, jakie funkcje i cechy powinny być obecne
+        lub nieobecne w programie, jakie formaty danych są akceptowalne, jakie
+        procedury testowania i weryfikacji należy stosować itp.
+      </p>
+    </div>
+    <div class="question" :class="{ 'dark-mode': darkMode }">
+      <h1>
+        Wymień cztery podstawowe działalności wspólne dla wszystkich procesów
+        wytwarzania oprogramowania.
+      </h1>
+    </div>
+    <div class="answer" :class="{ 'dark-mode': darkMode }">
+      <li>Planowanie</li>
+      <p>
+        Określenie celów, zadań i wymagań projektu, a także określenie
+        harmonogramu i budżetu projektu.
+      </p>
+      <li>Analiza</li>
+      <p>
+        Zrozumienie wymagań użytkownika, stworzenie specyfikacji funkcjonalnej,
+        a także określenie ograniczeń projektowych.
+      </p>
+      <li>Projektowanie</li>
+      <p>
+        Tworzenie projektu oprogramowania, takiego jak projekt systemu, projekt
+        interfejsu użytkownika, projekt bazy danych, itp.
+      </p>
+      <li>Implementacja</li>
+      <p>
+        Faktyczne tworzenie i kodowanie oprogramowania, testowanie oraz
+        integracja różnych modułów oprogramowania w całość.
+      </p>
+    </div>
+    <div class="question" :class="{ 'dark-mode': darkMode }">
+      <h1>
+        Omów Perspektywę 4+1 - przyporządkuj odpowiednie rodzaje diagramów
+        języka UML
+      </h1>
+    </div>
+    <div class="answer" :class="{ 'dark-mode': darkMode }">
+      <p>
+        Perspektywa 4+1 to podejście do modelowania architektury systemu, które
+        składa się z pięciu perspektyw lub widoków, a każda z perspektyw
+        reprezentowana jest przez odpowiedni rodzaj diagramu UML.
+      </p>
+      <li>Widok logiczny</li>
+      <p>
+        Reprezentowany przez diagram klas - opisuje strukturę klas, relacje
+        między nimi i ich zachowanie.
+      </p>
+      <li>Widok procesowy</li>
+      <p>
+        Reprezentowany przez diagramy sekwencji, diagramy aktywności, diagramy
+        stanów - opisuje zachowanie systemu w czasie.
+      </p>
+      <li>Widok fizyczny</li>
+      <p>
+        Reprezentowany przez diagramy komponentów, diagramy wdrożenia - opisuje
+        sposób, w jaki system jest fizycznie zorganizowany i wdrażany.
+      </p>
+      <li>Widok użytkownika</li>
+      <p>
+        Reprezentowany przez diagramy przypadków użycia - opisuje funkcjonalność
+        systemu z perspektywy użytkownika
+      </p>
+      <li>Widok scenariuszy</li>
+      <p>
+        Reprezentowany przez scenariusze - opisuje interakcje między
+        użytkownikami a systemem oraz między różnymi częściami systemu.
+      </p>
+    </div>
+    <div class="question" :class="{ 'dark-mode': darkMode }">
+      <h1>
+        Omów elementy, które mają wplyw na postrzeganie obrazów jako wizerunków
+        scen trójwymiarowych.
+      </h1>
+    </div>
+    <div class="answer" :class="{ 'dark-mode': darkMode }">
+      <li>Perspektywy</li>
+      <p>
+        Kąt widzenia, z którego patrzymy na scenę, wpływa na proporcje obiektów
+        i na ich pozycję względem siebie.
+      </p>
+      <li>Światła</li>
+      <p>
+        Oświetlenie sceny wpływa na kolor i intensywność obiektów, a także na
+        cienie, które rzucane są na tle.
+      </p>
+      <li>Tekstury</li>
+      <p>
+        Detale i faktury obiektów mogą wpływać na to, jak odbieramy ich głębię i
+        trójwymiarowość.
+      </p>
+      <li>Koloru</li>
+      <p>
+        Odpowiednio dobrana kolorystyka obiektów może pomóc w ich percepcji jako
+        trójwymiarowych. Na przykład, ciemniejsze kolory mogą sugerować cienie,
+        a jaśniejsze - odbicia świetlne.
+      </p>
+      <li>Rozdzielczości</li>
+      <p>
+        Im wyższa rozdzielczość obrazu, tym więcej detali i lepsza percepcja
+        głębi.
+      </p>
+      <li>Ruchu</li>
+      <p>
+        Animacje i efekty ruchu mogą pomóc w tworzeniu złudzenia
+        trójwymiarowości.
+      </p>
+    </div>
+    <div class="question" :class="{ 'dark-mode': darkMode }">
+      <h1>Wskaż różnice między forward raytracing a backward raytracing.</h1>
+    </div>
+    <div class="answer" :class="{ 'dark-mode': darkMode }">
+      <p>
+        Główną różnicą między forward raytracing a backward raytracing jest to,
+        że pierwsza metoda wysyła promienie światła od źródła do kamery, a druga
+        metoda od kamery do sceny. Forward raytracing jest szybszy i mniej
+        skomplikowany, ale nie daje tak realistycznych efektów, jak backward
+        raytracing, który jest bardziej czasochłonny, ale daje bardziej
+        realistyczne wyniki.
+      </p>
+    </div>
+    <div class="question" :class="{ 'dark-mode': darkMode }">
+      <h1>Omów współrzędne sferyczne w grafice komputerowej.</h1>
+    </div>
+    <div class="answer" :class="{ 'dark-mode': darkMode }">
+      <p>
+        Współrzędne sferyczne to sposób określenia położenia punktu w
+        trójwymiarowej przestrzeni, w którym używane są trzy wartości: promień
+        r, kąt azymutu θ (mierzony od osi x w płaszczyźnie xy) oraz kąt elewacji
+        φ (mierzony od osi z).
+      </p>
+    </div>
+    <div class="question" :class="{ 'dark-mode': darkMode }">
+      <h1>Podaj cztery warunki bezpieczeństwa systemu komputerowego.</h1>
+    </div>
+    <div class="answer" :class="{ 'dark-mode': darkMode }">
+      <li>Autoryzacja i uwierzytelnienie użytkowników</li>
+      <p>
+        By mieć dostęp do systemu, użytkownik musi zostać uwierzytelniony, a
+        następnie autoryzowany, aby uzyskać dostęp do określonych zasobów.
+      </p>
+      <li>Ochrona przed zagrożeniami zewnętrznymi</li>
+      <p>
+        System musi być chroniony przed atakami z zewnątrz, takimi jak hakerzy,
+        wirusy, złośliwe oprogramowanie, ataki DoS itp.
+      </p>
+      <li>Kontrola dostępu</li>
+      <p>
+        System musi umożliwiać określenie, kto ma dostęp do różnych zasobów,
+        jakie działania są dozwolone i w jaki sposób mają być realizowane.
+      </p>
+      <li>Ciągła aktualizacja i monitorowanie</li>
+      <p>
+        System musi być aktualizowany, aby uwzględniać nowe zagrożenia, a także
+        monitorowany w celu wykrywania i usuwania potencjalnych zagrożeń oraz
+        reagowania na nie w sposób szybki i skuteczny.
+      </p>
+    </div>
+    <div class="question" :class="{ 'dark-mode': darkMode }">
+      <h1>Scharakteryzuj działanie IDS.</h1>
+    </div>
+    <div class="answer" :class="{ 'dark-mode': darkMode }">
+      <p>
+        IDS to skrót od Intrusion Detection System, czyli systemu wykrywania
+        włamań. Jest to rodzaj oprogramowania lub sprzętu, którego celem jest
+        monitorowanie systemu komputerowego w celu wykrycia i reagowania na
+        próby nieautoryzowanego dostępu lub ataku. IDS działa na zasadzie
+        analizy ruchu sieciowego oraz zachowań systemowych, a jego zadaniem jest
+        wykrycie podejrzanych zdarzeń oraz powiadomienie administratora o tym
+        fakcie
+      </p>
+    </div>
+    <div class="question" :class="{ 'dark-mode': darkMode }">
+      <h1>
+        Omow rolę API w bezpieczeństwie sieci i systemów teleinformatycznych.
+      </h1>
+    </div>
   </div>
 </template>
 
