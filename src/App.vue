@@ -1435,6 +1435,559 @@
       <li>Wdrażanie</li>
       <p>Instalacja programu i dostarczenie go użytkownikowi.</p>
     </div>
+    <div class="question" :class="{ 'dark-mode': darkMode }">
+      <h1>Przekazywanie argumentów do funkcji w C++</h1>
+    </div>
+    <div class="answer" :class="{ 'dark-mode': darkMode }">
+      <p>
+        Przekazywanie argumentów do funkcji w C++ odbywa się przez wartość,
+        wskaźnik lub referencję. Przekazywanie przez wartość powoduje utworzenie
+        kopii argumentu, która jest przekazywana do funkcji. Przekazywanie przez
+        wskaźnik powoduje przekazanie adresu argumentu do funkcji, co pozwala na
+        modyfikowanie wartości argumentu w funkcji. Przekazywanie przez
+        referencję to inny sposób przekazywania argumentów przez odwołanie się
+        do oryginalnego argumentu, co pozwala na modyfikację wartości argumentu
+        bez tworzenia jego kopii.
+      </p>
+    </div>
+    <div class="question" :class="{ 'dark-mode': darkMode }">
+      <h1>Wymień kolejne techniki programowania.</h1>
+    </div>
+    <div class="answer" :class="{ 'dark-mode': darkMode }">
+      <li>Programowanie strukturalne</li>
+      <p>
+        opiera się na stosowaniu strukturalnych metod projektowania i
+        programowania.
+      </p>
+      <li>Programowanie obiektowe</li>
+      <p>
+        opiera się na idei tworzenia obiektów, które są instancjami klas i mają
+        określone właściwości i metody.
+      </p>
+      <li>Programowanie funkcyjne</li>
+      <p>
+        opiera się na wykorzystaniu funkcji jako podstawowej jednostki
+        programowej, wraz z zapewnieniem odpowiedniego sposobu przekazywania
+        argumentów i wyników.
+      </p>
+      <li>Programowanie zdarzeniowe</li>
+      <p>
+        opiera się na obsłudze zdarzeń, które mogą być generowane przez
+        użytkownika, system lub inne aplikacje.
+      </p>
+      <li>Programowanie reaktywne</li>
+      <p>
+        opiera się na reakcjach na zmiany stanu aplikacji, zamiast na
+        sekwencyjnym przetwarzaniu instrukcji.
+      </p>
+      <li>Programowanie współbieżne</li>
+      <p>
+        opiera się na równoczesnym wykonywaniu wielu wątków lub procesów, w celu
+        zwiększenia wydajności i responsywności systemu.
+      </p>
+    </div>
+    <div class="question" :class="{ 'dark-mode': darkMode }">
+      <h1>Podstawowe zasady OOP (Object Oriented Programming).</h1>
+    </div>
+    <div class="answer" :class="{ 'dark-mode': darkMode }">
+      <li>Abstrakcja</li>
+      <p>
+        umożliwia ukrycie szczegółów implementacji i skupienie się na istotnych
+        aspektach obiektów.
+      </p>
+      <li>Dziedziczenie</li>
+      <p>
+        umożliwia tworzenie hierarchii klas i dziedziczenie właściwości i metod
+        po klasach nadrzędnych.
+      </p>
+      <li>Enkapsulacja</li>
+      <p>
+        umożliwia wielokrotne wykorzystanie kodu poprzez zastosowanie różnych
+        implementacji dla tych samych metod w różnych klasach.
+      </p>
+      <li>Polimorfizm</li>
+      <p>
+        umożliwia ukrycie danych i metod wewnątrz klasy i zezwala na dostęp do
+        nich tylko poprzez odpowiednie interfejsy.
+      </p>
+    </div>
+    <div class="question" :class="{ 'dark-mode': darkMode }">
+      <h1>Klasy, obiekty. Formalna składnia definiowania klasy.</h1>
+    </div>
+    <div class="answer" :class="{ 'dark-mode': darkMode }">
+      <p>
+        Klasa to szablon lub wzorzec, na podstawie którego tworzone są konkretne
+        obiekty. Obiekt to instancja klasy, która ma swoje własne cechy (pola) i
+        zachowania (metody).
+      </p>
+    </div>
+    <div class="question" :class="{ 'dark-mode': darkMode }">
+      <h1>WKonstruktory, destruktory i ich zadania.</h1>
+    </div>
+    <div class="answer" :class="{ 'dark-mode': darkMode }">
+      <li>Konstruktor</li>
+      <p>
+        metoda wywoływana podczas tworzenia nowego obiektu danej klasy. Jego
+        zadaniem jest przygotowanie obiektu do dalszego działania i
+        inicjalizacja pól obiektu, np. ustalenie początkowych wartości pól.
+      </p>
+      <li>Destruktor</li>
+      <p>
+        metoda wywoływana automatycznie, gdy obiekt danej klasy jest usuwany z
+        pamięci. Jego zadaniem jest zwolnienie zasobów zajmowanych przez obiekt,
+        takich jak pamięć dynamiczna czy otwarte pliki. W C++ destruktor ma
+        nazwę taką samą jak nazwa klasy, poprzedzoną znakiem tyldy (~).
+      </p>
+    </div>
+    <div class="question" :class="{ 'dark-mode': darkMode }">
+      <h1>Operatory odwołania do składowych obiektu. Podać przyklady.</h1>
+    </div>
+    <div class="answer" :class="{ 'dark-mode': darkMode }">
+      <p>
+        Operator odwołania do składowych obiektu w języku C++ to operator "->",
+        który służy do dostępu do składowych obiektu poprzez wskaźnik na ten
+        obiekt. Przykład użycia operatora "->" to np. dostęp do pola "age"
+        obiektu klasy Person poprzez wskaźnik na ten obiekt:
+      </p>
+      <code>Person *personPtr = new Person(); personPtr->age = 30;</code>
+      <p>w innych językach uywa się np obiek.nazwa_zmiennej</p>
+    </div>
+    <div class="question" :class="{ 'dark-mode': darkMode }">
+      <h1>
+        Omówić platforme NET Framework. Czy .NET Framework jest związana z
+        konkretnym językiem programowania?
+      </h1>
+    </div>
+    <div class="answer" :class="{ 'dark-mode': darkMode }">
+      <p>
+        .NET Framework to platforma programistyczna opracowana przez firmę
+        Microsoft. Zapewnia narzędzia i biblioteki programistyczne do tworzenia
+        aplikacji na systemy Windows. Platforma .NET Framework składa się z
+        ogólnego środowiska uruchomieniowego (Common Language Runtime - CLR),
+        które obsługuje kompilację kodu do języka pośredniego (IL - Intermediate
+        Language) oraz obsługuje zarządzanie pamięcią, wątkami, bezpieczeństwem
+        i innymi kwestiami systemowymi.
+      </p>
+      <p>
+        Platforma .NET Framework jest niezależna od języka programowania, co
+        oznacza, że można pisać kod w różnych językach, takich jak C#, Visual
+        Basic.NET, F#, C++/CLI czy IronPython, a następnie ten kod może być
+        uruchomiony w środowisku CLR. Dlatego .NET Framework jest nazywany
+        platformą wielojęzykową.
+      </p>
+    </div>
+    <div class="question" :class="{ 'dark-mode': darkMode }">
+      <h1>Co oznacza akronim RAD? Podać przykłady środowisk RAD.</h1>
+    </div>
+    <div class="answer" :class="{ 'dark-mode': darkMode }">
+      <p>
+        Akronim RAD oznacza Rapid Application Development, czyli metodę
+        szybkiego tworzenia aplikacji. Metoda ta zakłada szybkie tworzenie
+        prototypów, iteracyjne testowanie i udzielanie szybkiej odpowiedzi na
+        zmiany.
+      </p>
+      <p>Przykładowe środowiska RAD to:</p>
+      <li>Microsoft Visual Studio</li>
+      <li>Xcode</li>
+      <li>IntelliJ IDEA</li>
+    </div>
+    <div class="question" :class="{ 'dark-mode': darkMode }">
+      <h1>
+        Przykładowe problemy optymalizacyjne w zagadnieniach programowania
+        liniowego. Metoda Simpleks.
+      </h1>
+    </div>
+    <div class="answer" :class="{ 'dark-mode': darkMode }">
+      <li>Problemy alokacji zasobów</li>
+      <p>
+        jak zoptymalizować alokację surowców lub kosztów pracy, tak aby osiągnąć
+        maksymalny zysk lub minimalny koszt.
+      </p>
+      <li>Problemy transportowe</li>
+      <p>
+        jak zoptymalizować koszty transportu, tak aby produkty dotarły do celu w
+        minimalnym czasie i przy minimalnych kosztach.
+      </p>
+      <li>Problemy produkcji:</li>
+      <p>
+        jak zoptymalizować proces produkcyjny, tak aby zminimalizować koszty
+        produkcji i zwiększyć zyski.
+      </p>
+      <p>
+        Metoda Simpleks to jedna z najczęściej stosowanych metod rozwiązywania
+        problemów programowania liniowego. Polega na iteracyjnym przeszukiwaniu
+        wierzchołków wielościanu, który jest ograniczony przez nierówności. W
+        każdej iteracji algorytm wybiera kolejny wierzchołek, który ma lepszą
+        wartość funkcji celu i porusza się w kierunku wierzchołka, który daje
+        lepsze wyniki. Proces kończy się, gdy nie ma już wierzchołków dających
+        lepsze wyniki, co oznacza, że zostało znalezione rozwiązanie optymalne.
+      </p>
+    </div>
+    <div class="question" :class="{ 'dark-mode': darkMode }">
+      <h1>Omówić możliwości narzędzia Solver arkusza kalkulacyjnego Excel</h1>
+    </div>
+    <div class="answer" :class="{ 'dark-mode': darkMode }">
+      <p>
+        Solver to narzędzie dostępne w arkuszu kalkulacyjnym Excel, służące do
+        rozwiązywania problemów optymalizacyjnych. Możliwe do rozwiązania
+        problemy obejmują optymalizację liniową, nieliniową, dyskretną oraz z
+        ograniczeniami równościowymi lub nierównościowymi. Solver wykorzystuje
+        algorytm Simpleksa do znalezienia optymalnego rozwiązania. Użytkownik
+        może zdefiniować cel optymalizacji, zmienne decyzyjne, ograniczenia i
+        inne parametry, a Solver wyznaczy wartości zmiennych decyzyjnych, które
+        optymalizują cel. Solver jest przydatny w wielu dziedzinach, w tym w
+        biznesie, finansach, inżynierii i naukach społecznych.
+      </p>
+    </div>
+    <div class="question" :class="{ 'dark-mode': darkMode }">
+      <h1>omów Problem komiwojażera</h1>
+    </div>
+    <div class="answer" :class="{ 'dark-mode': darkMode }">
+      <p>
+        Problem komiwojażera (ang. Traveling Salesman Problem, TSP) jest jednym
+        z klasycznych problemów optymalizacyjnych w informatyce. Polega on na
+        znalezieniu najkrótszej drogi przechodzącej przez wszystkie wierzchołki
+        w pełnym grafie ważonym, tak aby każdy wierzchołek był odwiedzony
+        dokładnie raz i zakończyła się wierzchołkiem startowym
+      </p>
+    </div>
+    <div class="question" :class="{ 'dark-mode': darkMode }">
+      <h1>
+        Algorytm, cechy algorytmu, struktury sterujące przebiegiem algorytmu,
+        schemat blokowy.
+      </h1>
+    </div>
+    <div class="answer" :class="{ 'dark-mode': darkMode }">
+      <p>
+        Algorytm to skończony zestaw precyzyjnych instrukcji krok po kroku,
+        które pozwalają na rozwiązanie określonego problemu lub zadania.
+        Algorytm powinien mieć określone cechy, takie jak precyzyjność,
+        wykonywalność, skończoność i determinizm.
+      </p>
+      <p>
+        Struktury sterujące przebiegiem algorytmu to elementy, które pozwalają
+        na wykonywanie określonych działań w zależności od określonych warunków.
+        Wyróżniamy między innymi instrukcje warunkowe (if, switch), pętle
+        (while, for, do-while), instrukcje skoku (break, continue, return) oraz
+        funkcje.
+      </p>
+      <p>
+        Schemat blokowy to graficzne przedstawienie algorytmu, w którym
+        poszczególne instrukcje są zapisane jako bloki o określonych kształtach,
+        połączone strzałkami wskazującymi na kolejność wykonywania instrukcji.
+        Schemat blokowy pozwala na łatwiejsze zrozumienie algorytmu i jego
+        przebiegu, a także na łatwiejsze wprowadzenie ewentualnych zmian czy
+        modyfikacji.
+      </p>
+    </div>
+    <div class="question" :class="{ 'dark-mode': darkMode }">
+      <h1>omów Złożoność obliczeniowa algorytmu</h1>
+    </div>
+    <div class="answer" :class="{ 'dark-mode': darkMode }">
+      <p>
+        Złożoność obliczeniowa algorytmu to miara, która określa, jak szybko
+        rośnie czas wykonania algorytmu wraz z rozmiarem problemu. Czas ten jest
+        zwykle mierzony w liczbie operacji elementarnych, które muszą zostać
+        wykonane przez algorytm.
+      </p>
+    </div>
+    <div class="question" :class="{ 'dark-mode': darkMode }">
+      <h1>
+        Przykładowe algorytmy sortujące. Porównanie ich złożoności czasowej.
+      </h1>
+    </div>
+    <div class="answer" :class="{ 'dark-mode': darkMode }">
+      <li>Sortowanie bąbelkowe (Bubble sort)</li>
+      <p>
+        porównuje sąsiednie elementy i zamienia je, jeśli nie są w kolejności.
+        Ma złożoność O(n^2) i jest stosunkowo wolny dla większych zbiorów
+        danych.
+      </p>
+      <li>Sortowanie przez wstawianie (Insertion sort)</li>
+      <p>
+        przechodzi przez każdy element i umieszcza go w odpowiedniej pozycji w
+        posortowanej już części tablicy. Ma złożoność O(n^2) i działa szybciej
+        niż sortowanie bąbelkowe.
+      </p>
+      <li>Sortowanie szybkie (Quick sort)</li>
+      <p>
+        wybiera jeden element jako punkt odniesienia (tzw. pivot), porównuje
+        pozostałe elementy z pivotem i umieszcza je po odpowiedniej stronie.
+        Następnie wykonuje ten sam proces dla obu połówek tablicy. Ma złożoność
+        O(n log n) i działa szybko dla większych zbiorów danych.
+      </p>
+    </div>
+    <div class="question" :class="{ 'dark-mode': darkMode }">
+      <h1>Przykładowe dynamiczne struktury danych.</h1>
+    </div>
+    <div class="answer" :class="{ 'dark-mode': darkMode }">
+      <li>Lista</li>
+      <p>
+        struktura umożliwiająca przechowywanie danych w postaci ciągu elementów,
+        które są połączone ze sobą wskaźnikami.
+      </p>
+      <li>Stos</li>
+      <p>
+        struktura LIFO (Last-In-First-Out), w której nowe elementy dodawane są
+        na wierzch, a usuwanie elementów odbywa się również od wierzchu.
+      </p>
+      <li>Kolejka</li>
+      <p>
+        struktura FIFO (First-In-First-Out), w której nowe elementy dodawane są
+        na końcu, a usuwanie elementów odbywa się z początku.
+      </p>
+      <li>Drzewo</li>
+      <p>
+        struktura, w której każdy element ma jednego lub więcej potomków,
+        tworząc drzewiastą strukturę.
+      </p>
+      <li>Graf</li>
+      <p>
+        struktura, w której elementy są połączone ze sobą krawędziami, tworząc
+        graficzny model.
+      </p>
+    </div>
+    <div class="question" :class="{ 'dark-mode': darkMode }">
+      <h1>
+        Dane, informacje, przetwarzanie danych, przetwarzanie informacji..
+      </h1>
+    </div>
+    <div class="answer" :class="{ 'dark-mode': darkMode }">
+      <p>
+        Dane to nieprzetworzone informacje, które posiadają pewną wartość i
+        znaczenie. Przetwarzanie danych to operacje wykonywane na danych, które
+        zmieniają ich postać, organizację lub zawartość, aby uzyskać bardziej
+        wartościowe informacje. Przetwarzanie informacji natomiast to
+        wykorzystywanie uzyskanych informacji w celu podejmowania decyzji lub
+        podejmowania działań.
+      </p>
+      <p>
+        Przetwarzanie danych jest procesem transformacji danych w informacje, a
+        przetwarzanie informacji jest procesem transformacji informacji w
+        wiedzę, co pozwala na podejmowanie decyzji lub realizowanie działań.
+      </p>
+    </div>
+    <div class="question" :class="{ 'dark-mode': darkMode }">
+      <h1>
+        Podstawowe założenie ilościowej teorii informacji. Jednostka informacji.
+        Entropia informacyjna.
+      </h1>
+    </div>
+    <div class="answer" :class="{ 'dark-mode': darkMode }">
+      <p>
+        Podstawowe założenie ilościowej teorii informacji mówi, że informacja
+        jest związana z redukcją niepewności lub entropii. Teoria informacji
+        bada sposób, w jaki przekazywana jest informacja, w jaki sposób
+        informacja jest kodowana, przetwarzana, przesyłana i odbierana.
+        Jednostką informacji jest bit, który może przyjąć dwie wartości: 0 lub
+        1. Entropia informacyjna to miara informacji zawartej w danym zbiorze
+        lub źródle informacji. Im większa entropia, tym większa niepewność co do
+        treści informacji, a tym samym większa ilość informacji zawarta w tym
+        źródle. Entropia może być wykorzystywana do określania efektywności
+        kodowania informacji, gdzie im mniejsza entropia, tym mniej bitów
+        potrzebnych do reprezentowania informacji.
+      </p>
+    </div>
+    <div class="question" :class="{ 'dark-mode': darkMode }">
+      <h1>
+        Dwuznakowe kodowanie komunikatów. Średnia długość słowa kodowego.
+        Pojęcie i znaczenie redundancji sposobu kodowania. Kod zwarty.
+      </h1>
+    </div>
+    <div class="answer" :class="{ 'dark-mode': darkMode }">
+      <p>
+        Dwuznakowe kodowanie komunikatów to sposób kodowania informacji, w
+        którym każdy symbol jest kodowany za pomocą sekwencji dwóch znaków (np.
+        "0" i "1"). Średnia długość słowa kodowego w tym kodowaniu zależy od
+        prawdopodobieństwa wystąpienia danego symbolu - im mniejsze
+        prawdopodobieństwo, tym dłuższa sekwencja dwuznakowa potrzebna jest do
+        zakodowania symbolu.
+      </p>
+      <p>
+        Dwuznakowe kodowanie komunikatów to sposób kodowania informacji, w
+        którym każdy symbol jest kodowany za pomocą sekwencji dwóch znaków (np.
+        "0" i "1"). Średnia długość słowa kodowego w tym kodowaniu zależy od
+        prawdopodobieństwa wystąpienia danego symbolu - im mniejsze
+        prawdopodobieństwo, tym dłuższa sekwencja dwuznakowa potrzebna jest do
+        zakodowania symbolu. Entropia informacyjna to teoretyczna dolna granica
+        średniej długości słowa kodowego, która jest osiągana przy optymalnym
+        kodowaniu z zachowaniem odpowiedniego prawdopodobieństwa wystąpienia
+        symboli.
+      </p>
+      <p>
+        Redundancja sposobu kodowania oznacza, że w kodowaniu używa się więcej
+        znaków, niż jest to konieczne do zakodowania informacji. Kod zwarty to
+        taki kod, w którym nie ma redundancji i jest optymalny w sensie
+        minimalnej średniej długości słowa kodowego.
+      </p>
+    </div>
+    <div class="question" :class="{ 'dark-mode': darkMode }">
+      <h1>
+        Arytmetyka binama. Uzupełnienia i odejmowanie przy pomocy uzupelnień.
+        Definicje kodów liczb.
+      </h1>
+    </div>
+    <div class="answer" :class="{ 'dark-mode': darkMode }">
+      <li>Arytmetyka binarn</li>
+      <p>
+        system matematyczny, który operuje na liczbach zapisanych w systemie
+        dwójkowym. W tym systemie posługujemy się jedynie dwoma cyframi: 0 i 1.
+        W arytmetyce binarnej stosuje się uzupełnienia, czyli metody
+        reprezentowania liczb ujemnych.
+      </p>
+      <p>
+        Uzupełnienie do dwóch to najprostszy sposób reprezentacji liczb
+        ujemnych. Polega on na uzupełnieniu liczby binarnej do 1, dodaniu 1 i
+        zapisaniu wyniku w postaci binarnej. Natomiast uzupełnienie do jedynki
+        to metoda, w której każdy bit liczby binarnej jest zamieniany na
+        przeciwny i do wyniku dodawana jest 1.
+      </p>
+      <p>
+        W arytmetyce binarnej do dodawania liczb stosuje się dodawanie bitowe.
+        Natomiast odejmowanie można przeprowadzić przy pomocy uzupełnień.
+      </p>
+      <p>
+        W kodach liczb stosowane są różne sposoby kodowania liczb, np. kod
+        binarny, kod uzupełnień do dwóch, kod uzupełnień do jedynki. Każdy z
+        tych kodów ma swoje charakterystyczne cechy, np. kod uzupełnień do dwóch
+        jest prostszy do implementacji w sprzęcie, natomiast kod uzupełnień do
+        jedynki pozwala na wykonanie operacji dodawania i odejmowania bez
+        konieczności wykonywania operacji zamiany znaku.
+      </p>
+      <p>
+        Kod zwarty to metoda kodowania, w której stosuje się kod o stałej
+        długości, niezależnej od wartości kodowanej liczby. W wyniku tej metody
+        otrzymuje się mniejszą redundancję kodu, ale wymaga to większej liczby
+        bitów w przypadku większych liczb.
+      </p>
+    </div>
+    <div class="question" :class="{ 'dark-mode': darkMode }">
+      <h1>
+        Logika binama. Funkcje boolowskie. Cyfrowe układy logiczne. Półsumator,
+        sumator.
+      </h1>
+    </div>
+    <div class="answer" :class="{ 'dark-mode': darkMode }">
+      <li>Logika binarna</li>
+      <p>
+        dziedzina matematyki zajmująca się operacjami na dwóch wartościach
+        logicznych: prawda (1) i fałsz (0). Funkcje boolowskie to matematyczne
+        wyrażenia, które przyjmują wartości 0 lub 1 w zależności od wartości
+        wejściowych.
+      </p>
+      <li>Cyfrowe układy logiczne</li>
+      <p>
+        zestawy bramek logicznych, wykonujących określone operacje na danych
+        binarnych. Półsumator to podstawowy układ logiczny, który dodaje dwie
+        jednobitowe liczby. Sumator to bardziej zaawansowany układ, który
+        pozwala na dodawanie wielobitowych liczb.
+      </p>
+      <p>
+        W cyfrowych układach logicznych wykorzystuje się także bramki logiczne,
+        takie jak np. bramki AND, OR, NOT, NAND, NOR, XOR, XNOR. Te bramki
+        umożliwiają wykonywanie różnych operacji logicznych, a także budowanie
+        bardziej skomplikowanych układów, takich jak rejestr przesuwny, licznik,
+        czy też procesor.
+      </p>
+    </div>
+    <div class="question" :class="{ 'dark-mode': darkMode }">
+      <h1>
+        Języki formalne. Klasyfikacja Chomsky'ego gramatyk formalnych. Gramatyki
+        bezkontekstowe. Notacja BNF.
+      </h1>
+    </div>
+    <div class="answer" :class="{ 'dark-mode': darkMode }">
+      <p>
+        Języki formalne to matematyczny sposób opisu języków. Klasyfikacja
+        Chomsky'ego to podział na 4 typy gramatyk formalnych, od najmniej do
+        najbardziej ograniczających. Gramatyki bezkontekstowe należą do klasy
+        drugiej, a ich reguły opisują związki między symbolami, bez rozróżnienia
+        ich kontekstu. Notacja BNF (Backus-Naur Form) to forma zapisu gramatyk
+        bezkontekstowych, składająca się z reguł zdefiniowanych jako produkcje.
+      </p>
+    </div>
+    <div class="question" :class="{ 'dark-mode': darkMode }">
+      <h1>Przykłady zastosowania pochodnej funkcji liczbowej.</h1>
+    </div>
+    <div class="answer" :class="{ 'dark-mode': darkMode }">
+      <li>
+        Obliczanie wartości ekstremów funkcji, tj. miejsc, w których funkcja
+        osiąga maksimum lub minimum.
+      </li>
+      <li>
+        Określanie monotoniczności funkcji, czyli w których przedziałach jest
+        ona rosnąca lub malejąca.
+      </li>
+      <li>
+        Obliczanie wartości pochodnych wyższych rzędów, które pozwalają na
+        analizę bardziej skomplikowanych zachowań funkcji.
+      </li>
+      <li>
+        Wykorzystanie pochodnej do obliczania przybliżonej wartości funkcji w
+        okolicy danego punktu.
+      </li>
+      <li>
+        Zastosowanie w mechanice jako pochodna położenia względem czasu,
+        pozwalająca na obliczanie prędkości, przyspieszenia i innych parametrów
+        ruchu.
+      </li>
+      <li>
+        Zastosowanie w ekonomii i finansach do obliczania stóp zwrotu z
+        inwestycji, szybkości wzrostu i spadku produkcji itp.
+      </li>
+    </div>
+    <div class="question" :class="{ 'dark-mode': darkMode }">
+      <h1>Przykłady zastosowania calki oznaczonej.</h1>
+    </div>
+    <div class="answer" :class="{ 'dark-mode': darkMode }">
+      <li>
+        Obliczanie dystansu przebytego przez ciało: jeśli znamy prędkość ciała w
+        każdym momencie, to możemy obliczyć drogę, jaką przebyło na danym
+        odcinku czasu poprzez obliczenie całki oznaczonej prędkości.
+      </li>
+      <li>
+        Obliczanie pracy wykonywanej przez siłę: jeśli znamy wartość siły
+        działającej na ciało w każdym momencie, to możemy obliczyć pracę
+        wykonaną przez tę siłę na danym odcinku drogi poprzez obliczenie całki
+        oznaczonej siły.
+      </li>
+      <li>
+        Obliczanie całkowitej wartości funkcji: jeśli znamy funkcję, to możemy
+        obliczyć całkowitą wartość tej funkcji na danym odcinku poprzez
+        obliczenie całki oznaczonej tej funkcji.
+      </li>
+    </div>
+    <div class="question" :class="{ 'dark-mode': darkMode }">
+      <h1>Macierze i przykłady ich zastosowania.</h1>
+    </div>
+    <div class="answer" :class="{ 'dark-mode': darkMode }">
+      <p>
+        Macierze to tablice liczb o określonej liczbie wierszy i kolumn, które
+        są wykorzystywane do reprezentowania i manipulowania danymi numerycznymi
+        lub algebraicznymi.
+      </p>
+      <li>Rozwiązywanie układów równań liniowych</li>
+      <li>Transformacja geometryczna obiektów w grafice komputerowej</li>
+      <li>Analiza sieci społecznych lub sieci przemysłowych</li>
+      <li>Kryptografia i szyfrowanie danych</li>
+      <li>Analiza danych statystycznych i eksploracja danych</li>
+      <li>Mechanika kwantowa i obliczenia numeryczne</li>
+    </div>
+    <div class="question" :class="{ 'dark-mode': darkMode }">
+      <h1>Znaczenie rozkladu normalnego.</h1>
+    </div>
+    <div class="answer" :class="{ 'dark-mode': darkMode }">
+      <p>
+        Rozkład normalny, zwany również rozkładem Gaussa, jest jednym z
+        najważniejszych rozkładów prawdopodobieństwa w statystyce.
+        Charakteryzuje się krzywą o kształcie dzwonu, w którym średnia, mediana
+        i moda mają taką samą wartość. Wiele zjawisk w przyrodzie i
+        społeczeństwie ma rozkład zbliżony do normalnego, co umożliwia
+        wykorzystanie tego rozkładu do modelowania tych zjawisk i przewidywania
+        ich zachowania w przyszłości. Rozkład normalny jest również kluczowy w
+        teorii błędów pomiarowych i inferencji statystycznej.
+      </p>
+    </div>
   </div>
 </template>
 
