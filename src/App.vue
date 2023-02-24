@@ -1011,6 +1011,430 @@
         Omow rolę API w bezpieczeństwie sieci i systemów teleinformatycznych.
       </h1>
     </div>
+    <div class="answer" :class="{ 'dark-mode': darkMode }">
+      <p>
+        Przede wszystkim umożliwiają one dostęp do funkcjonalności zewnętrznych
+        systemów, usług i aplikacji, co może być wykorzystane do zwiększenia
+        bezpieczeństwa poprzez integrację z narzędziami monitorującymi,
+        systemami zarządzania tożsamością, firewallami czy systemami wykrywania
+        ataków.
+      </p>
+    </div>
+    <div class="question" :class="{ 'dark-mode': darkMode }">
+      <h1>
+        Omów nieprzenośność programów między różnymi procesorami lub
+        niewykorzystywanie przez aplikacje wszystkich możliwości procesora.
+      </h1>
+    </div>
+    <div class="answer" :class="{ 'dark-mode': darkMode }">
+      <p>
+        Nieprzenośność programów między różnymi procesorami lub
+        niewykorzystywanie przez aplikacje wszystkich możliwości procesora
+        wynika z różnic w architekturze procesorów i sposobie działania
+        poszczególnych instrukcji. W praktyce oznacza to, że programy pisane dla
+        jednej platformy sprzętowej mogą nie działać na innej platformie, a
+        nawet jeśli działają, to mogą działać wolniej lub nie wykorzystywać
+        wszystkich możliwości procesora.
+      </p>
+    </div>
+    <div class="question" :class="{ 'dark-mode': darkMode }">
+      <h1>Co to jest chmura natywna?</h1>
+    </div>
+    <div class="answer" :class="{ 'dark-mode': darkMode }">
+      <p>
+        Chmura natywna to koncepcja, w której aplikacje są tworzone i wdrażane z
+        myślą o środowisku chmurowym, wykorzystując do tego celu narzędzia i
+        usługi oferowane przez dostawców chmury publicznej. W odróżnieniu od
+        tradycyjnych aplikacji, które są projektowane do działania w konkretnym
+        środowisku, aplikacje natywne chmury są elastyczne, skalowalne i mogą
+        działać w różnych chmurach. W ten sposób zapewniają one większą
+        wydajność, dostępność i niezawodność w porównaniu do tradycyjnych
+        aplikacji
+      </p>
+    </div>
+    <div class="question" :class="{ 'dark-mode': darkMode }">
+      <h1>Co to jest asocjacja?</h1>
+    </div>
+    <div class="answer" :class="{ 'dark-mode': darkMode }">
+      <p>
+        W programowaniu obiektowym, asocjacja to relacja między dwoma klasami,
+        która określa, że jedna klasa ma powiązania z obiektami z drugiej klasy.
+        Asocjacja może być jednostronna lub obustronna, a także może mieć
+        atrybuty i operacje. Może też posiadać kierunek, który określa, która
+        klasa jest "właścicielem" relacji, a która jest "podrzędną". Asocjacje
+        są ważnym narzędziem w projektowaniu obiektowym, pozwalającym na
+        wyrażenie zależności między klasami i modelowanie rzeczywistych
+        sytuacji.
+      </p>
+    </div>
+    <div class="question" :class="{ 'dark-mode': darkMode }">
+      <h1>Omów znaczenie wartości progowej w procesie decyzyjnym.</h1>
+    </div>
+    <div class="answer" :class="{ 'dark-mode': darkMode }">
+      <p>
+        Wartość progowa to wartość graniczna, która decyduje o podjęciu
+        konkretnej decyzji. W procesie decyzyjnym wartość progowa jest stosowana
+        do porównywania wyników lub wskaźników z ustalonym poziomem akceptacji
+        lub odrzucenia. Jeśli wynik lub wskaźnik przekracza wartość progową,
+        podejmowana jest jedna decyzja, a jeśli nie, podejmowana jest inna
+        decyzja.
+      </p>
+    </div>
+    <div class="question" :class="{ 'dark-mode': darkMode }">
+      <h1>Omów kategorie decyzji wedlug stopnia ryzyka?</h1>
+    </div>
+    <div class="answer" :class="{ 'dark-mode': darkMode }">
+      <p>Decyzje według stopnia ryzyka dzielimy na:</p>
+      <li>Decyzje pewne</li>
+      <p>
+        Decyzje, które podejmujemy w oparciu o fakt, że znamy wszystkie możliwe
+        wyniki i ich konsekwencje. W takim przypadku podejmujemy decyzje bez
+        wahania, ponieważ jesteśmy pewni, że podjęcie określonego działania
+        przyniesie oczekiwane skutki.
+      </p>
+      <li>Decyzje ryzykowne</li>
+      <p>
+        Decyzje, które podejmujemy w warunkach niepewności, gdzie nie znamy
+        wszystkich możliwych wyników. W takim przypadku, podjęcie określonej
+        decyzji wiąże się z ryzykiem. W celu zminimalizowania ryzyka, należy
+        dokładnie przeanalizować dostępne opcje i oszacować ich konsekwencje.
+      </p>
+      <li>Decyzje niepewne</li>
+      <p>
+        Decyzje, które podejmujemy w warunkach braku wiedzy lub informacji. W
+        takim przypadku podejmujemy decyzję na podstawie domysłów lub intuicji,
+        ponieważ nie posiadamy wystarczającej ilości informacji, aby dokonać
+        racjonalnej analizy sytuacji. W takim przypadku, podjęcie decyzji wiąże
+        się z dużym ryzykiem i zawsze istnieje szansa na niepowodzenie.
+      </p>
+    </div>
+    <div class="question" :class="{ 'dark-mode': darkMode }">
+      <h1>
+        Podaj dwa konkretne przyklady (nie tylko dziedziny) zastosowań systemów
+        wbudowanych.
+      </h1>
+    </div>
+    <div class="answer" :class="{ 'dark-mode': darkMode }">
+      <li>Urządzenia AGD</li>
+      <p>
+        Systemy wbudowane znajdują zastosowanie w urządzeniach AGD, takich jak
+        pralki, lodówki, kuchenki mikrofalowe, które sterowane są przy pomocy
+        mikrokontrolerów. Dzięki temu można zautomatyzować procesy, poprawić
+        wydajność i bezpieczeństwo urządzeń.
+      </p>
+      <li>Motoryzacja</li>
+      <p>
+        Systemy wbudowane znajdują szerokie zastosowanie w motoryzacji, np. w
+        samochodach. Kontrolują one wiele funkcji, takich jak sterowanie
+        silnikiem, hamulcami, systemem audio i nawigacją. Systemy te są również
+        odpowiedzialne za bezpieczeństwo, np. poprzez systemy ABS czy ESP.
+      </p>
+    </div>
+    <div class="question" :class="{ 'dark-mode': darkMode }">
+      <h1>
+        Jakie dwa rodzaje połączeń ze światem zewnętrznym (i rodzaje
+        odpowiadających im sygnałów) sa charakterystyczne dla komputerowych
+        systemów wbudowanych?
+      </h1>
+    </div>
+    <div class="answer" :class="{ 'dark-mode': darkMode }">
+      <li>Wejścia/wyjścia cyfrowe</li>
+      <p>
+        (GPIO) służą do komunikacji z urządzeniami i czujnikami, które generują
+        sygnały cyfrowe, takie jak przyciski, diody, enkodery itp. GPIO może
+        działać w trybie wejścia, wyjścia lub wejścia/wyjścia.
+      </p>
+      <li>Interfejsy analogowo-cyfrowe (ADC) i cyfrowo-analogowe (DAC)</li>
+      <p>
+        Umożliwiają przetwarzanie sygnałów analogowych na sygnały cyfrowe i na
+        odwrót. ADC służy do konwersji sygnałów analogowych (takich jak
+        napięcie, temperatura, ciśnienie) na sygnały cyfrowe, które mogą być
+        przetwarzane przez mikrokontroler. DAC z kolei służy do konwersji
+        sygnałów cyfrowych na sygnały analogowe, takie jak np. sygnał audio.
+      </p>
+    </div>
+    <div class="question" :class="{ 'dark-mode': darkMode }">
+      <h1>Do czego służy magistrala komputera?</h1>
+    </div>
+    <div class="answer" :class="{ 'dark-mode': darkMode }">
+      <p>
+        Magistrala komputera to połączenie kilku linii przesyłających informacje
+        między różnymi urządzeniami w komputerze. Służy ona do przesyłania
+        danych pomiędzy różnymi podzespołami komputera, takimi jak procesor,
+        pamięć, karta graficzna, dysk twardy czy inne urządzenia
+        wejścia/wyjścia. Magistrala umożliwia szybki transfer danych wewnątrz
+        komputera, co jest kluczowe dla sprawnego działania systemu. Bez
+        magistrali, urządzenia w komputerze nie byłyby w stanie ze sobą
+        komunikować, co uniemożliwiłoby wykonywanie zadań przez system.
+      </p>
+    </div>
+    <div class="question" :class="{ 'dark-mode': darkMode }">
+      <h1>Wymienić podstawowe elementy skladowe procesora.</h1>
+    </div>
+    <div class="answer" :class="{ 'dark-mode': darkMode }">
+      <li>Jednostka arytmetyczno-logiczna (ALU)</li>
+      <p>wykonuje operacje arytmetyczne i logiczne na danych,</p>
+      <li>rejestr instrukcji</li>
+      <p>przechowuje aktualnie wykonywaną instrukcję,</p>
+      <li>rejestr licznika instrukcji</li>
+      <p>
+        zawiera adres pamięci, z którego pobierana jest następna instrukcja,
+      </p>
+      <li>rejestry ogólnego przeznaczenia</li>
+      <p>przechowują dane tymczasowo używane przez procesor,</p>
+      <li>kontroler przerwań</li>
+      <p>
+        odpowiada za obsługę przerwań zewnętrznych (np. od urządzeń
+        peryferyjnych),
+      </p>
+      <li>jednostka zarządzania pamięcią</li>
+      <p>zarządza operacjami odczytu i zapisu do pamięci,</p>
+      <li>jednostka zarządzania wejściami/wyjściami</li>
+      <p>obsługuje komunikację z urządzeniami peryferyjnymi.</p>
+    </div>
+    <div class="question" :class="{ 'dark-mode': darkMode }">
+      <h1>Jakie są podstawowe kategorie rozkazów procesora?</h1>
+    </div>
+    <div class="answer" :class="{ 'dark-mode': darkMode }">
+      <li>Rozkazy transferu danych</li>
+      <p>np. kopiowanie, przesyłanie danych)</p>
+      <li>Rozkazy arytmetyczno-logiczne</li>
+      <p>(np. dodawanie, mnożenie, porównanie)</p>
+      <li>Rozkazy skoku</li>
+      <p>(np. warunkowy lub bezwarunkowy skok do innej części programu)</p>
+      <li>Rozkazy wejścia/wyjścia</li>
+      <p>
+        (np. przesyłanie danych z/do pamięci zewnętrznej lub urządzeń
+        wejścia/wyjścia)
+      </p>
+      <li>Rozkazy sterujące</li>
+      <p>(np. resetowanie procesora, zmiana trybu działania)</p>
+    </div>
+    <div class="question" :class="{ 'dark-mode': darkMode }">
+      <h1>Na czym polega rekursja w wywoływaniu funkcji?</h1>
+    </div>
+    <div class="answer" :class="{ 'dark-mode': darkMode }">
+      <p>
+        Rekursja to technika programowania, która polega na wywoływaniu funkcji
+        samej w sobie. W czasie wykonywania programu, gdy funkcja jest
+        wywoływana, może ona sama wywołać siebie, co prowadzi do kolejnego
+        wywołania, aż do osiągnięcia określonego warunku końcowego. Warunek
+        końcowy jest ważny, ponieważ zapobiega nieskończonemu wywoływaniu
+        funkcji i prowadzi do powrotu wartości zwracanej przez funkcję na wyższy
+        poziom. Przykładem zastosowania rekursji może być np. obliczanie silni,
+        sumy ciągu lub drzewa binarnego.
+      </p>
+    </div>
+    <div class="question" :class="{ 'dark-mode': darkMode }">
+      <h1>Co to jest Abstrakcyjny Typ Danych (ADT)?</h1>
+    </div>
+    <div class="answer" :class="{ 'dark-mode': darkMode }">
+      <p>
+        Abstrakcyjny Typ Danych (ADT) to model matematyczny lub konceptualny,
+        który opisuje zbiór danych i operacji, które można wykonywać na tych
+        danych. ADT ukrywa implementację danych, skupiając się na ich
+        funkcjonalności i zachowaniu. Jest to ważne narzędzie programistyczne,
+        które umożliwia tworzenie skomplikowanych struktur danych, a
+        jednocześnie ułatwia ich użytkowanie i zapewnia izolację od pozostałych
+        elementów programu.
+      </p>
+    </div>
+    <div class="question" :class="{ 'dark-mode': darkMode }">
+      <h1>Co to jest struktura danych?</h1>
+    </div>
+    <div class="answer" :class="{ 'dark-mode': darkMode }">
+      <p>
+        Wyszukiwanie binarne to algorytm służący do odnalezienia wartości w
+        uporządkowanej tablicy. Polega na porównywaniu szukanej wartości z
+        wartością środkowego elementu tablicy, a następnie porównywaniu z
+        połowami tablicy, aż do odnalezienia szukanej wartości lub stwierdzenia,
+        że nie występuje w tablicy. Dzięki temu algorytmowi można znacznie
+        przyspieszyć proces wyszukiwania, szczególnie dla dużych zbiorów danych.
+      </p>
+    </div>
+    <div class="question" :class="{ 'dark-mode': darkMode }">
+      <h1>
+        Definicje, rola, zadania systemu operacyjnego. Kryteria klasyfikacyjne
+        systemów operacyjnych.
+      </h1>
+    </div>
+    <div class="answer" :class="{ 'dark-mode': darkMode }">
+      <p>
+        System operacyjny to podstawowe oprogramowanie, które zarządza zasobami
+        sprzętowymi i pozwala użytkownikom na wykonywanie zadań. System
+        operacyjny pełni kilka ról, m.in. zapewnia interfejs użytkownika,
+        zarządza pamięcią, plikami, wejściami/wyjściami oraz wykonuje rozkazy.
+      </p>
+      <p>Zadania systemu operacyjnego to m.in.:</p>
+      <li>
+        zarządzanie pamięcią, plikami, procesami, urządzeniami wejścia/wyjścia;
+      </li>
+      <li>obsługa zdarzeń i błędów;</li>
+      <li>optymalizacja wykorzystania zasobów sprzętowych;</li>
+      <li>zapewnienie bezpieczeństwa i poufności danych;</li>
+      <li>
+        udostępnianie interfejsów programistycznych (API) dla twórców aplikacji.
+      </li>
+      <p>Kryteria klasyfikacyjne systemów operacyjnych to m.in.:</p>
+      <li>tryb pracy systemu (jeden lub kilka trybów);</li>
+      <li>rodzaj zarządzania procesami (procesy jedno- lub wielozadaniowe);</li>
+      <li>model pamięci (jeden lub wieloprogramowy);</li>
+      <li>stopień zdecentralizowania (monolityczny, mikrojądro, hybrydowy);</li>
+      <li>rodzaj systemu plików (lokalny, sieciowy);</li>
+      <li>
+        typ architektury sprzętowej (komputer osobisty, serwer, system
+        wbudowany).
+      </li>
+    </div>
+    <div class="question" :class="{ 'dark-mode': darkMode }">
+      <h1>Założenia architektury Johna von Neumanna.</h1>
+    </div>
+    <div class="answer" :class="{ 'dark-mode': darkMode }">
+      <li>Jednolitą pamięć dla danych i programów.</li>
+      <li>Procesor wykonujący sekwencyjnie instrukcje pobierane z pamięci.</li>
+      <li>
+        Zastosowanie skończonej liczby prostych instrukcji, które mogą wykonywać
+        operacje arytmetyczne, logiczne oraz operacje wejścia/wyjścia.
+      </li>
+      <li>
+        Zastosowanie jednolitego systemu adresacji, który pozwala na odwoływanie
+        się do dowolnej komórki pamięci za pomocą jednej liczby (adresu).
+      </li>
+    </div>
+    <div class="question" :class="{ 'dark-mode': darkMode }">
+      <h1>Zarządzanie pamięcią operacyjną. Pamięć wirtualna</h1>
+    </div>
+    <div class="answer" :class="{ 'dark-mode': darkMode }">
+      <p>
+        Zarządzanie pamięcią operacyjną to proces, w którym system operacyjny
+        zarządza pamięcią RAM w celu efektywnego alokowania, dealokowania i
+        udostępniania pamięci dla programów. System operacyjny używa pamięci
+        operacyjnej do przechowywania programów i danych, które są aktualnie
+        wykonywane.
+      </p>
+      <p>
+        Pamięć wirtualna to technika zarządzania pamięcią operacyjną, która
+        umożliwia programom używanie więcej pamięci, niż jest fizycznie dostępne
+        w RAM. Pamięć wirtualna tworzy wirtualny adres pamięci, który mapowany
+        jest na fizyczny adres pamięci, kiedy dany fragment pamięci jest
+        potrzebny. Dzięki temu programy mają dostęp do większej ilości pamięci
+        niż jest faktycznie dostępne w pamięci RAM. System operacyjny kontroluje
+        ten proces mapowania, aby zapewnić, że programy nie korzystają z
+        pamięci, która jest już zajęta lub nieprzydzielona.
+      </p>
+    </div>
+    <div class="question" :class="{ 'dark-mode': darkMode }">
+      <h1>Planowanie przydziału procesora -szeregowanie zadań.</h1>
+    </div>
+    <div class="answer" :class="{ 'dark-mode': darkMode }">
+      <p>
+        Planowanie przydziału procesora (ang. CPU scheduling) to proces
+        decydujący o przydziale czasu procesora dla zadań w systemie
+        operacyjnym. Jednym z podejść jest szeregowanie zadań, czyli ustalanie
+        kolejności wykonywania zadań w kolejce.
+      </p>
+      <p>
+        Szeregowanie zadań to proces, w którym system operacyjny wybiera
+        kolejność wykonywania zadań, aby zapewnić, że wszystkie zadania są
+        wykonywane w odpowiednim czasie. System operacyjny używa szeregowania
+        zadań do zarządzania procesorami w celu zapewnienia, że programy są
+        wykonywane w odpowiednim czasie.
+      </p>
+    </div>
+    <div class="question" :class="{ 'dark-mode': darkMode }">
+      <h1>Przetwarzanie wspólbieżne i synchronizacja procesów.</h1>
+    </div>
+    <div class="answer" :class="{ 'dark-mode': darkMode }">
+      <p>
+        Przetwarzanie współbieżne to technika przetwarzania danych, w której
+        wiele zadań wykonywanych jest jednocześnie, a procesy komunikują się ze
+        sobą i koordynują swoje działania. W celu zapewnienia poprawności
+        przetwarzania, konieczna jest synchronizacja procesów, czyli koordynacja
+        ich wykonywania tak, aby uniknąć niepożądanych efektów, takich jak
+        wyścigi (ang. race conditions) czy zakleszczenia (ang. deadlock).
+      </p>
+      <p>
+        Synchronizacja procesów polega na stosowaniu technik, które zapewniają
+        poprawne wykonywanie zadań przez procesy. Do najważniejszych technik
+        należą semafory, muteksy, zmienne warunkowe, a także algorytmy
+        wzajemnego wykluczania, takie jak algorytm Petersona czy Dekkera. Celem
+        synchronizacji procesów jest zapewnienie spójności danych i uniknięcie
+        konfliktów między procesami, a także efektywne wykorzystanie zasobów
+        systemowych.
+      </p>
+    </div>
+    <div class="question" :class="{ 'dark-mode': darkMode }">
+      <h1>
+        Wymień podział języków programowania na trzy stopnie. Wyjaśnij też
+        pojęcia translacja, kompilacja, interpretacja.
+      </h1>
+    </div>
+    <div class="answer" :class="{ 'dark-mode': darkMode }">
+      <li>Języki niskiego poziomu</li>
+      <p>
+        Są bliskie językowi maszynowemu i umożliwiają bezpośrednie wykorzystanie
+        zasobów komputera.
+      </p>
+      <li>Języki średniego poziomu</li>
+      <p>
+        Stanowią połączenie między językami niskiego i wysokiego poziomu.
+        Umożliwiają one programowanie na niższym poziomie abstrakcji niż języki
+        wysokiego poziomu, ale jednocześnie są łatwiejsze w użyciu niż języki
+        niskiego poziomu.
+      </p>
+      <li>Języki wysokiego poziomu</li>
+      <p>
+        Są najbardziej abstrakcyjne i pozwalają na pisanie kodu w sposób
+        bardziej zrozumiały dla człowieka. Zazwyczaj są one łatwiejsze w użyciu
+        niż języki niskiego i średniego poziomu, ale jednocześnie mogą być mniej
+        wydajne.
+      </p>
+      <li>Translacja</li>
+      <p>
+        Proces przekształcania kodu źródłowego napisanego w jednym języku
+        programowania na kod wynikowy w innym języku programowania.
+      </p>
+      <li>Kompilacja</li>
+      <p>
+        Proces przekształcania kodu źródłowego napisanego w języku programowania
+        na kod maszynowy, który jest bezpośrednio wykonywany przez komputer.
+      </p>
+      <li>Interpretacja</li>
+      <p>
+        Proces bezpośredniego wykonywania kodu źródłowego programu przez
+        interpreter. Interpreter przetwarza kod źródłowy na bieżąco i wykonuje
+        go, zamiast kompilować kod na etapie przed uruchomieniem.
+      </p>
+    </div>
+    <div class="question" :class="{ 'dark-mode': darkMode }">
+      <h1>Pojęcie programowania. Etapy programowania proceduralnego.</h1>
+    </div>
+    <div class="answer" :class="{ 'dark-mode': darkMode }">
+      <p>
+        Programowanie to proces tworzenia programów komputerowych, czyli zbiór
+        instrukcji i procedur wykonujących określone zadania.
+      </p>
+      <p>Etapy programowania proceduralnego:</p>
+      <li>Analiza problemu</li>
+      <p>
+        Polega na zrozumieniu, co ma zrobić program, jakie są wymagania, jakie
+        dane wejściowe i wyjściowe są potrzebne itp.
+      </p>
+      <li>Projektowanie</li>
+      <p>
+        Na tym etapie projektuje się algorytmy i struktury danych, które zostaną
+        użyte w programie, aby spełnić wymagania.
+      </p>
+      <li>Kodowanie</li>
+      <p>Implementacja algorytmów i struktur danych w języku programowania.</p>
+      <li>Testowanie</li>
+      <p>
+        Sprawdzenie, czy program działa poprawnie, czy generuje oczekiwane
+        wyniki, czy obsługuje wszelkie możliwe przypadki.
+      </p>
+      <li>Wdrażanie</li>
+      <p>Instalacja programu i dostarczenie go użytkownikowi.</p>
+    </div>
   </div>
 </template>
 
